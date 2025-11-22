@@ -49,7 +49,7 @@ export default function ScrollShowcase() {
                     {/* Right Column: Sticky Image */}
                     <div className="hidden w-full lg:block lg:w-[70%]">
                         <div className="sticky top-0 flex h-screen items-center justify-center">
-                            <div className="relative aspect-video w-full overflow-hidden rounded-xl border border-white/20 bg-gray-900/50 shadow-2xl backdrop-blur-sm">
+                            <div className="relative aspect-[1920/1032] w-full border border-white/20 bg-gray-900/50 shadow-2xl backdrop-blur-sm">
                                 <AnimatePresence mode="wait">
                                     <motion.div
                                         key={activeIndex}
