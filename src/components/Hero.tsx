@@ -4,11 +4,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 
+import GanttBackground from "./GanttBackground";
+
 export default function Hero() {
     const { t } = useLanguage();
 
     return (
-        <section className="relative flex min-h-screen flex-col items-center justify-center px-4 text-center">
+        <section className="relative flex min-h-screen flex-col items-center justify-center px-4 text-center overflow-hidden">
+            <GanttBackground />
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

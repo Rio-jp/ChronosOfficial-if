@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/50 backdrop-blur-md">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
                 <Link href="/" className="flex items-center gap-2">
-                    <Image src="/icon.png" alt="Chronos Logo" width={32} height={32} className="rounded-lg" />
+                    <Image src="/ChronosOfficial-if/icon.png" alt="Chronos Logo" width={32} height={32} className="rounded-lg" />
                     <span className="text-xl font-bold text-white">Chronos</span>
                 </Link>
                 <div className="hidden gap-8 md:flex">

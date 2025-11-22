@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
@@ -13,8 +14,8 @@ export default function Footer() {
                         <span className="text-xl font-bold text-white">Chronos</span>
                     </div>
                     <div className="flex gap-8 text-sm text-gray-400">
-                        <a href="/privacy" className="hover:text-white">{t.footer.privacy}</a>
-                        <a href="/terms" className="hover:text-white">{t.footer.terms}</a>
+                        <Link href="/privacy" className="hover:text-white">{t.footer.privacy}</Link>
+                        <Link href="/terms" className="hover:text-white">{t.footer.terms}</Link>
                         <a href="https://x.com/rio_engineer" target="_blank" rel="noopener noreferrer" className="hover:text-white">{t.footer.contact}</a>
                     </div>
                     <div className="text-sm text-gray-500">

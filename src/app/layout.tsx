@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Chronos - Local-First Gantt Chart",
   description: "Secure, high-performance project management tool.",
   icons: {
-    icon: "/icon.png",
+    icon: "/ChronosOfficial-if/icon.png",
   },
 };
 
