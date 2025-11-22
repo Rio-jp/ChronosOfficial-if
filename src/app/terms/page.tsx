@@ -32,7 +32,7 @@ export default function Terms() {
                                     <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/10 text-sm font-mono text-cyan-400">
                                         {index + 1}
                                     </span>
-                                    {section.title.replace(/^(第\d+条|1\.|2\.|3\.|4\.)[（(]?.*?[）)]?\s*/, '') || section.title}
+                                    {section.title.replace(/^(第\d+条|Article \d+)\s*[（(]?/, '').replace(/[）)]?$/, '')}
                                 </h2>
                                 <div className="prose prose-invert max-w-none">
                                     <p className="whitespace-pre-wrap text-base md:text-lg text-gray-400">

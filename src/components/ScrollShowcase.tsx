@@ -39,6 +39,19 @@ export default function ScrollShowcase() {
                                 <h2 className="mb-6 font-outfit text-2xl font-bold text-white md:text-4xl tracking-tight whitespace-nowrap">
                                     {item.title}
                                 </h2>
+
+                                {/* Mobile Image */}
+                                <div className="mb-6 block w-full lg:hidden">
+                                    <div className="relative aspect-[1920/1032] w-full overflow-hidden rounded-lg border border-white/20 bg-gray-900/50 shadow-2xl">
+                                        <Image
+                                            src={images[index]}
+                                            alt={item.title}
+                                            fill
+                                            className="object-cover"
+                                        />
+                                        <div className={`absolute inset-0 bg-gradient-to-br ${colors[index]} opacity-20 mix-blend-overlay`} />
+                                    </div>
+                                </div>
                                 <p className="font-inter text-base leading-relaxed text-gray-400 md:text-lg font-light">
                                     {item.desc}
                                 </p>
