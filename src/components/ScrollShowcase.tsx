@@ -6,9 +6,9 @@ import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 
 const images = [
-    "/screenshot-gantt.png",
-    "/screenshot-summary.png",
-    "/screenshot-task.png",
+    "/ChronosOfficial-if/screenshot-gantt.png",
+    "/ChronosOfficial-if/screenshot-summary.png",
+    "/ChronosOfficial-if/screenshot-task.png",
 ];
 
 const colors = [
